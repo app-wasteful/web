@@ -1,6 +1,5 @@
 import googlePlayBadge from "../assets/google-play-badge.png"
 import homeBg from "../assets/home-bg.png"
-import Footer from "../components/Footer"
 
 export default function Home() {
   return (
