@@ -1,0 +1,19 @@
+{
+  "app": {
+    "name": "Wasteful",
+    "website": "https://wasteful.app",
+    "playStore": "YOUR_PLAY_STORE_LINK"
+  },
+  "contact": {
+    "email": "hello@wasteful.app"
+  },
+  "privacy": {
+    "lastUpdated": "6 October 2026"
+  },
+  "terms": {
+    "lastUpdated": "6 October 2026"
+  },
+  "security": {
+    "email": "hello@wasteful.app"
+  }
+}

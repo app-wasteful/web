@@ -1,23 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+import Home from "./pages/Home"
+import Demo from "./pages/Demo"
+import About from "./pages/About"
+import Privacy from "./pages/Privacy"
+import Terms from "./pages/Terms"
+
 function App() {
   return (
-    <main className="min-h-screen bg-bg text-text">
-      <section className="flex min-h-screen items-center justify-center px-6">
-        <div className="text-center">
-          <div className="mb-6 font-unica text-6xl tracking-wide">
-            Wasteful<span className="text-accent">.</span>
-          </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/demo" element={<Demo />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
 
-          <p className="font-body text-lg text-muted">
-            Simple bin collection reminders.
-          </p>
-
-          <a
-            href="/privacy" className="mt-8 inline-block rounded-full bg-accent px-6 py-3 font-semibold text-white transition hover:opacity-90">
-            Privacy Policy
-          </a>
-        </div>
-      </section>
-    </main>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
