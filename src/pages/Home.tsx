@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-hidden bg-bg text-text">
+    <main className="sm:h-screen overflow-hidden bg-bg text-text">
       <section className="flex h-full flex-col items-center ">
 
         {/* Hero content */}
@@ -52,20 +52,20 @@ export default function Home() {
           </div>
 
           {/* Navigation */}
-          <nav className="mt-7 flex flex-wrap justify-center gap-x-7 gap-y-3 font-unica decoration-accent uppercase text-sm text-muted bg-white border border-border rounded-full px-6 py-3 font-bold text-sm ">
-            <a href="/demo" className="transition hover:text-accent ">
+          <nav className="mt-7 flex flex-wrap justify-center gap-x-7 gap-y-3 font-unica decoration-accent uppercase text-sm text-muted bg-white border border-accent rounded-full px-6 py-3 font-bold text-sm md:text-base mb-10">
+            <a href="/demo" className="transition hover:text-accent hover:underline">
               Demo
             </a>
 
-            <a href="/about" className="transition hover:text-accent">
+            <a href="/about" className="transition hover:text-accent hover:underline">
               About
             </a>
 
-            <a href="/privacy" className="transition hover:text-accent">
+            <a href="/privacy" className="transition hover:text-accent hover:underline">
               Privacy
             </a>
 
-            <a href="/terms" className="transition hover:text-accent">
+            <a href="/terms" className="transition hover:text-accent hover:underline">
               Terms
             </a>
           </nav>
