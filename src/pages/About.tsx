@@ -108,8 +108,8 @@ export default function About() {
           </div>
         </div>
 
-        <section>
-            <h2 className="mb-3 text-2xl font-semibold mt-8">
+        <section className="mx-auto max-w-3xl">
+            <h2 className="mb-3 text-2xl font-semibold mt-8 ">
             Contact
             </h2>
 
