@@ -1,5 +1,5 @@
 
-```md
+
 # Wasteful
 
 The official website for **Wasteful**, a simple bin collection reminder app.
@@ -82,5 +82,5 @@ The website serves as the public landing page and information site for the Waste
 ## License
 
 All rights reserved.
-```
+
 
