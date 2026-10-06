@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bitcount:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Mozilla+Headline:wght@200..700&family=Qahiri&family=Unica+One&display=swap');
+
+@import "tailwindcss";
+
+/* =========================
+   Wasteful Design System (Tailwind v4)
+   ========================= */
+
+.unica-one-regular {
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.lora-regular {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* 🎨 Theme Tokens (used by Tailwind utilities) */
+@theme {
+  --color-accent: #FE852D;  /* Wasteful orange */
+
+  /* Backgrounds */
+  --color-bg: #f5f6f8;      /* main app background (light grey) */
+  --color-surface: #ffffff; /* cards / sections */
+  --color-dark: #0b0f14;    /* black mode / deep sections */
+
+  /* Text */
+  --color-text: #0f172a;    /* primary text */
+  --color-muted: #6b7280;   /* secondary text */
+
+  /* UI */
+  --color-border: #e5e7eb;  /* Cards / surfaces */
+
+  --font-unica: "Unica One", sans-serif; /* Main font for headings */
+  --font-heading: "Mozilla Headline", sans-serif;
+  --font-body: "Lora", serif;
+  --font-mono: "Bitcount", monospace;
+  --font-blackOps: "Black Ops One", sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-qahiri: "Qahiri", serif;
+  --font-griffy: "Griffy", serif;
+  --font-gothic: "League Gothic", sans-serif;
+  --font-edu: "Edu VIC WA NT Hand", cursive;
+  --font-germania:  "Germania One", sans-serif;
+}
