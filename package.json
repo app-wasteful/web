@@ -9,8 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && copy dist\\index.html dist\\404.html && gh-pages -d dist"
+    "deploy": "npm run build && node -e \"const fs=require('node:fs'); for (const route of ['privacy','terms']) { fs.mkdirSync('dist/'+route,{recursive:true}); fs.copyFileSync('dist/index.html','dist/'+route+'/index.html'); } fs.copyFileSync('dist/index.html','dist/404.html');\" && gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
