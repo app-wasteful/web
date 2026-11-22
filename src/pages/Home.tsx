@@ -1,5 +1,6 @@
 import googlePlayBadge from "../assets/google-play-badge.png"
 import homeBg from "../assets/home-bg.png"
+import data from "../data/site.json"
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
 
             {/* Google Play */}
             <a
-              href="/"
+              href={data.app.playStore}
               className="flex items-center transition hover:scale-[1.02]">
               <img
                 src={googlePlayBadge}
