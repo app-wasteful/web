@@ -2,7 +2,7 @@
   "app": {
     "name": "Wasteful",
     "website": "https://wasteful.app",
-    "playStore": "YOUR_PLAY_STORE_LINK"
+    "playStore": "https://play.google.com/store/apps/details?id=app.wasteful"
   },
   "contact": {
     "email": "hello@wasteful.app"
